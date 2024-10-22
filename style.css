@@ -1,0 +1,77 @@
+body {
+    background-image: url('images\ \(1\).jfif'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.container {
+    background-color: #c8cfdd; /* Background color for the layout container */
+    color:black; /* Text color */
+    width: 600px; /* Increase the width for better spacing */
+    margin: 20vh auto 40px auto; /* Adjusted bottom margin */
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(8, 8, 8); /* Ensure the header text is white */
+}
+
+.form-grid {
+    display: flex; /* Use flexbox for two-column layout */
+    flex-wrap: wrap; /* Allow wrapping for additional rows */
+    justify-content: space-between; /* Space between columns */
+}
+
+.input-group {
+    width: 48%; /* Adjust input group width for two columns */
+    margin-bottom: 15px; /* Space between rows */
+}
+
+#form {
+    background-color: transparent; /* Keep form background transparent to show container color */
+}
+
+#form button {
+    background-color: #792099;
+    color:black;
+    border: 1px solid #792099;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34, 193, 195);
+    color: black; /* Text color for input fields */
+    background-color: transparent; /* Transparent background for input fields */
+}
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.input-group .error {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: #0cc477;
+}
+
+.input-group.error input {
+    border-color: rgb(206, 67, 67);
+}
